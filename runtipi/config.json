@@ -1,6 +1,6 @@
 {
   "name": "Hermes Desktop in Browser",
-  "id": "hermes-frontend-3",
+  "id": "hermes-desktop-in-browser",
   "wizard_type": "view",
   "available": true,
   "short_desc": "The Hermes Desktop experience in your browser, for the Hermes Agent on this box.",
@@ -10,8 +10,8 @@
     "media"
   ],
   "description": "Community browser extraction of Hermes Desktop. Connects to a separately installed Hermes Agent without replacing it.",
-  "tipi_version": 4,
-  "version": "1af684e-1",
+  "tipi_version": 5,
+  "version": "0.1.1+1af684e",
   "source": "https://github.com/przbadu/hermes-ui",
   "website": "https://github.com/przbadu/hermes-ui",
   "exposable": true,

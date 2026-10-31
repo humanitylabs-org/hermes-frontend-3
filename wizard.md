@@ -1,11 +1,12 @@
 ---
 wizard: 0.2
-id: hermes-frontend-3
+id: hermes-desktop-in-browser
+renamed_from: [hermes-frontend-3]
 name: Hermes Desktop in Browser
 type: view
 category: interface
 tags: [productivity, communication]
-version: 0.1.0+1af684e
+version: 0.1.1+1af684e
 summary: The Hermes Desktop experience in your browser, connected to the Hermes Agent on your Wizard.
 icon: icon.png
 license: MIT

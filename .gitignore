@@ -1,2 +1,4 @@
 dist/
 LICENSE.upstream
+__pycache__/
+*.py[cod]

@@ -1,6 +1,9 @@
 services:
-  hermes-frontend-3:
+  hermes-desktop-in-browser:
     image: ghcr.io/humanitylabs-org/hermes-frontend-3:1af684e-1
+    networks:
+      default:
+        aliases: [hermes-frontend-3]
     user: "101:101"
     cap_drop: [ALL]
     security_opt: ["no-new-privileges:true"]

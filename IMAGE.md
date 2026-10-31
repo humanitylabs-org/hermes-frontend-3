@@ -1,4 +1,4 @@
-# Hermes Frontend 3 — Desktop browser proof of concept
+# Hermes Desktop in Browser — browser proof of concept
 
 This is packaging of [przbadu/hermes-ui](https://github.com/przbadu/hermes-ui),
 MIT-licensed, at `1af684e2d6ce05e6d1da82d67bc671e15d2d2d96`.
@@ -10,7 +10,12 @@ and WebSockets are forwarded to one administrator-configured Hermes origin.
 There is no agent process, Hermes data volume, provider secret or Docker socket.
 Native Hermes login remains authoritative. Keep both services private.
 
-Build: `npm ci`, `sh scripts/prepare-frontend.sh`, then
+The following build/smoke commands belong to the original
+`humanitylabs-org/wizard-app-store` checkout, not this packaging-only repo.
+The existing GHCR image name stays unchanged; it is an artifact reference, not
+the Wizard app id. No rebuild is needed for this identity-only release.
+
+Build (in that original checkout): `npm ci`, `sh scripts/prepare-frontend.sh`, then
 `docker build -t wizard-hermes-frontend-3:test images/hermes-frontend-3`.
 Test: `uv run --with playwright python scripts/smoke-frontend.py` (Chrome or
 Playwright Chromium required). Tests use disposable real Hermes state and no
